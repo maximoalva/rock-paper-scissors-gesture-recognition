@@ -124,7 +124,7 @@ Press `Q` to exit.
 
 ## Technologies
 
-- Python
+- Python 3.10
 - TensorFlow / Keras
 - MediaPipe
 - OpenCV
@@ -144,12 +144,13 @@ Press `Q` to exit.
 ├── rps_dataset.npy
 ├── rps_labels.npy
 ├── rps_model.h5
+├── requirements.txt
 └── README.md
 ```
 
 ## Installation
 
-Python **3.10** is recommended to ensure compatibility with TensorFlow and scikit-learn.
+Python **3.10** is required, as the versions of TensorFlow and scikit-learn specified in `requirements.txt` are only compatible with Python 3.10.
 
 Clone the repository:
 
